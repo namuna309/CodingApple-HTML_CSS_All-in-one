@@ -1,0 +1,42 @@
+/* class는 점찍고 작명 + 중복은 피한다 */
+/* class selector */
+.profile {
+    width: 100px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center; 
+    font-size: 16px;
+}
+
+.content {
+    color: red
+}
+
+/* 모든 p태그의 스타일 */
+/* tag selector */
+/* p {
+    text-align: center;
+} */
+
+/* id로 스타일 적용 */
+/* id selector */
+#special {
+    text-align: center;
+    color: blue;
+}
+
+/* id는 자바스크립트 적용할 때 주로 씀 */
+/* .class 추천 */
+
+
+/* 스타일이 겹칠 경우 우선순위에 따라 정해짐 */
+/* 
+style="" (1000점)
+#id (100점)
+.class (10점) 
+p (1점)  
+*/
