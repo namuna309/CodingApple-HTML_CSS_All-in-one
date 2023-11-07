@@ -9,8 +9,12 @@
     <!-- wrapper 또는 container 레이아웃을 만들기 전 전체를 감싸는 박스 -->
     <div class="container">
         <div class="header"></div>
-        <div class="left-menu"></div>
-        <div class="right"></div>
+        <!-- inline-block 적용 -> 공백 제거 필요, 주변에 글이 있으면 가금 이사ㅏㅇ해짐-->
+        <!-- inline-block 사용시 공백제거 방법 1. 박스사이 주석기호 활용  -->
+        <!-- inline-block 사용시 공백제거 방법 2. 부모태그에 font-size: 0px  -->
+        <!-- inherit되는 속성은 명시도가 가장 낮다 -->
+        <div class="left-menu"></div><!--
+     --><div class="right"><p>안녕하세요</p></div>
         <div class="footer"></div>
     </div>
 

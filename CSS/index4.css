@@ -48,6 +48,7 @@
 
 .container {
     width: 800px;
+    font-size: 0px;
 }
 
 .header {
@@ -61,14 +62,18 @@
     width: 20%;
     height: 400px;
     background-color: cornflowerblue;
-    float: left;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
 }
 
 .right {
     width: 80%;
     height: 400px;
     background-color: coral;
-    float: left;
+    /* float: left; */
+    /* inline-block: 내 크기만큼 차지 -> 어울림 */
+    display: inline-block;
 }
 
 .footer {
