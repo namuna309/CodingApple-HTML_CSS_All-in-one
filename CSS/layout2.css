@@ -12,6 +12,7 @@
     background-position: center;
     /* 박스에 보정입히기 (엣지 이상) filter: brightness(n%).. */
     padding: 1px;
+    position: relative;
 }
 
 .main-title {
@@ -19,14 +20,53 @@
     font-size: 40px;
     /* 박스 2개가 위쪽 테두리가 겹침 -> margin collapse 현상 발생 => 테두리가 안겹치도록하여 문제 해결*/
     margin-top: 100px;
+    text-align: center;
 }
 
-.main-describe {
+.main-content {
     color: white;
     font-size: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .main_button {
-    
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    /* position 부여하면 좌표이동 가능 + 공중에 뜸*/
+    /* relative: 내 원래 위치를 기준으로 이동 */
+    /* static: 좌표 이동X */
+    /* fixed: 현재 화면이 기준 */
+    /* absolute: 내 부모 중에 position: relative를 갖고있는 태그가 기준 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+}
+
+/* 숙제: 설명 칸 만들기 */
+.main-decribe {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    background-color: #eee;
+}
+
+.describe-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.describe-content {
+    text-align: center;
+    margin: 0px 30px;
 }
