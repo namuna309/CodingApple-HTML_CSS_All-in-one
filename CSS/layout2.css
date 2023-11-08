@@ -1,0 +1,32 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    /* backgroud 조정하기 */
+    /* background-size: 100%; */
+    /* 사진 반복 설저 */
+    background-repeat: no-repeat;
+    /* 사진 꽉 채우기 cover or contain*/
+    background-size: cover;
+    /* 사진 위치 조정 */
+    background-position: center;
+    /* 박스에 보정입히기 (엣지 이상) filter: brightness(n%).. */
+    padding: 1px;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    /* 박스 2개가 위쪽 테두리가 겹침 -> margin collapse 현상 발생 => 테두리가 안겹치도록하여 문제 해결*/
+    margin-top: 100px;
+}
+
+.main-describe {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main_button {
+    
+}
