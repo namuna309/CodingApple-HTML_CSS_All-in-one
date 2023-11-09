@@ -1,0 +1,8 @@
+td, th {
+    border: 1px solid black
+}
+
+/* 라인 하나로 붙이기 */
+table {
+    border-collapse: collapse;
+}

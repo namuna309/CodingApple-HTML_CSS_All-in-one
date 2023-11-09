@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/layout3.css">
+</head>
+<body>
+    <div>
+        <table>
+            <!-- thead, tbody -> 기능상 차이는 없고 분류를 위함 -->
+            <thead>
+                <tr>
+                    <!-- 제목 열: th -->
+                    <th><p>dddd</p><p>dddd</p></th>
+                    <!-- 일반: td -->
+                    <!-- talbe안에서 세로정렬할땐 vertical-align을 사용하며, top, middle, bottom만 사용 가능하다 -->
+                    <td style="vertical-align: top;">2222</td>
+                    <td>3333</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <!-- 제목 열: th -->
+                    <th>1</th>
+                    <!-- 일반: td -->
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <!-- verticla algn -> inline/inline-block 요소 간의 세로 정렬할 때 사용 -->
+        <p style="font-size: 50px;">greetings<span style="font-size: 20px;vertical-align: middle;">안녕</span></p>
+    </div>
+    <div style="display: table;">
+        <!-- tr -->
+        <div style="display: table-row;">
+            <!-- td -->
+            <div style="display: table-cell;">23</div>
+        </div>
+    </div>
+</body>
+</html>
