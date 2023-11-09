@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 90, 90);
+}
+div {
+    box-sizing: border-box;
+    font-family: Trebuchet MS;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+}
+
+.header {
+    display: block;
+    padding: 10px 0 10px;
+    height: 15%;
+    font-size: 40px;
+    font-weight: 530;
+    letter-spacing: -1px;
+}
+
+.input-area {
+    display: block;
+    height: 70%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.email-box {
+    position: relative;
+    display: block;
+    height: 25%;
+}
+
+.input-box {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-size: large;
+}
+
+h2 {
+    position: absolute;
+    top: 0;
+    font-weight: 100;
+    margin: 0;
+    display: block;
+}
+
+.name-box {
+    position: relative;
+    display: block;
+    height: 25%;
+    margin-top: 10px;
+}
+
+.first-name {
+    position: absolute;
+    width: 47.5%;
+    height: 100%;
+    left: 0;
+}
+
+.last-name {
+    position: absolute;
+    width: 47.5%;
+    height: 100%;
+    right: 0;
+}
+.massage-box {
+    position: relative;
+    display: block;
+    height: 50%;
+}
+
+.etc {
+    position:relative;
+    display: block;
+    height: 15%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+textarea {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20px;
+    height: 63%;
+    width: 100%;
+}
+
+.sub-checkbox {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px 5px 15px;
+}
+
+button {
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 3px;
+    position:absolute;
+    right:5px;
+    top: 16px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: rgb(255, 196, 0);
+}
+
+input[type=checkbox] {
+    margin: 0;
+    background-color: gray;
+}
