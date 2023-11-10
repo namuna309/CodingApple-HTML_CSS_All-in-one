@@ -1,0 +1,43 @@
+/* OOCSS 적용 전 */
+.btn-red {
+    padding:15px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    background: red;
+}
+
+.btn-blue {
+    padding:15px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    background: blue;
+}
+
+/* OOSCC 적용 후 */
+.f-small {
+    font-size: 12px;
+}
+
+.f-mid {
+    font-size: 16px;
+}
+
+.f-lg {
+    font-size: 20px;
+}
+
+.main-btn {
+        padding:15px;
+        border:none;
+        cursor: pointer;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
