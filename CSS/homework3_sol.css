@@ -24,3 +24,54 @@ table {
 .cart-table td:nth-child(2) {
     width: 400px;
 }
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    /* 마우스 올릴 때 스타일 설정 */
+    cursor: pointer;
+}
+
+/* hover, focus, active를 넣을 땐 순서가 중요함 */
+/* 마우스 올릴 때 스타일은 :hover */
+.btn:hover {
+    background-color: chocolate;
+}
+
+/* 클릭할 때 :active */
+.btn:active {
+    background-color: brown;
+}
+
+/* 클릭 후 계속해서 유지 :focus */
+.btn:focus {
+    background-color: gray;
+    border: 2px solid black;
+
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus {
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+/* 방문 전 링크 스타일링 */
+.custom-link:link {
+    color: violet;
+}
+
+/* 방문 후 링크 스타일링 */
+.custom-link:visited {
+    color: black;
+}
