@@ -3,8 +3,32 @@ div {
     box-sizing: border-box;
 }
 
+/* font-family는 inherit되는 속성이 있다 */
+/* 안전성 도모 -> 여려 폰트 적기 */
+/* 하드웨어에 설치되지 않은 폰트는 적용이 안된다 */
+/* font-family: 'gulim', 'dotum', 'arial'; */
+/* 한글폰트는 용량이 크므로 1~2개만 쓴다 */
+/* 용량 줄이려면 .woff 쓰자 */
+@font-face {
+    font-family: '나눔스퀘어';
+    src: url(../font/NanumSquareR.woff);   
+}
+/* 굵게 처리하려면 따로 Bold를 다운받아서 하는게 더 이쁘게 나온다 */
+@font-face {
+    font-family: '굵은 나눔스퀘어';
+    font-weight: 800;
+    src: url(../font/NanumSquareB.woff);   
+}
+
 body {
     margin: 0px;
+    font-family: '나눔스퀘어'; 
+}
+
+/* 폰트 부트럽게 처리하려면 회전 시키면 됨(아아아주 조금) */
+/* 맥북은 알아서 처리해줌 */
+p, h4, h3, h2, h1, span {
+    transform: rotate(0.03deg);
 }
 
 .main-background {
