@@ -27,9 +27,9 @@ body {
 
 /* 폰트 부트럽게 처리하려면 회전 시키면 됨(아아아주 조금) */
 /* 맥북은 알아서 처리해줌 */
-p, h4, h3, h2, h1, span {
+/* p, h4, h3, h2, h1, span {
     transform: rotate(0.03deg);
-}
+} */
 
 .main-background {
     width: 100%;
@@ -132,3 +132,42 @@ input[type=text] {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+.flex-container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.bold {
+    font-family: 800;
+}
+
+.large {
+    font-size: 40px;
+}
+
+.nav-contianer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 60, 92);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
